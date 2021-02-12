@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+  --font-timer: 'Nova Mono', monospace;
+  --font-text: 'Ubuntu', sans-serif;
+  --color-theme-white: #fff;
+  --color-theme-lighter: #dc8a8a;
+  --color-theme-light: #d15c5c;
+  --color-theme-dark: #c43434;
+  /* define a variable which is updated in the script to visually relay the amount of time left (by changing the linear-gradient used as background) */
+  --gradient-height: 100%;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
